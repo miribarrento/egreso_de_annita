@@ -37,7 +37,7 @@ if st.session_state.gift_index > 0:
 # Mostrar la carta cuando se hayan revelado todas las imágenes
 if st.session_state.gift_index >= len(gifts):
     st.markdown("---")
-    st.markdown("<h1 id='letter-section'>Una Carta para Mi Amor</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 id='letter-section'>Una Carta para Mi Amada Arquitectica</h1>", unsafe_allow_html=True)
     st.write("""
     Anna Banana,
 
