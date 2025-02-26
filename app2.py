@@ -31,7 +31,8 @@ if st.session_state.gift_index > 0:
     cols = st.columns(3)
     for i in range(st.session_state.gift_index):
         with cols[i % 3]:
-            st.image(gifts[i]["image"], use_column_width=True)
+            # Usar use_container_width en lugar de use_column_width
+            st.image(gifts[i]["image"], use_container_width=True)
             st.write(gifts[i]["message"])
 
 # Mostrar la carta cuando se hayan revelado todas las imágenes
